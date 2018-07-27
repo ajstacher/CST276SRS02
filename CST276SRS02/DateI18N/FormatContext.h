@@ -6,7 +6,7 @@
 class FormatContext
 {
 private:
-	IDateValidator * validator{&n};
+	IDateValidator *validator{&n};
 	NullValidator n;
 	std::string _date {};
 

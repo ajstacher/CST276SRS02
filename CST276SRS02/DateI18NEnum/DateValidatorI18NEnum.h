@@ -7,7 +7,7 @@ private:
 	bool is_good_DMY(std::string date) const;
 	bool is_good_YMD(std::string date) const;
 	bool is_good_MDY(std::string date) const;
-	int days_in_month(int const year, int const month) const;
+	static int days_in_month(int const year, int const month);
 
 public:
 	enum class Format { YMD, DMY, MDY };

@@ -5,7 +5,7 @@ Date Validation Strategy/Template Method
 Name: AJ Stacher  
 
 ---
-Issues:  
+Issues:  N/A
 
 
 Notes:  - Strategy Design Pattern used in DateI18N and GoDStrategy Projects

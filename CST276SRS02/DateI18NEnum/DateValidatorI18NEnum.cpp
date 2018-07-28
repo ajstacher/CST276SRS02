@@ -104,7 +104,7 @@ bool DateValidatorI18NEnum::is_good_MDY(const std::string date) const
 	return result;
 }
 
-int DateValidatorI18NEnum::days_in_month(int const year, int const month) const
+int DateValidatorI18NEnum::days_in_month(int const year, int const month)
 {
 	static const std::array<int, 12> days{ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 	int result{ days.at(month - 1) };

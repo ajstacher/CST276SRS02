@@ -21,9 +21,6 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DateValidatorI18N.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DateValidatorI18NEnum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -33,9 +30,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DateValidatorI18N.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DateValidatorI18NEnum.cpp">

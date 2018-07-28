@@ -147,13 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DateValidatorI18N.h" />
     <ClInclude Include="DateValidatorI18NEnum.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DateValidatorI18N.cpp" />
     <ClCompile Include="DateValidatorI18NEnum.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp">

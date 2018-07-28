@@ -6,15 +6,15 @@
 
 bool DateValidatorI18NEnum::check(const Format format, const std::string date) const
 {
-	if(format == Format::DMY)
+	if (format == Format::DMY)
 	{
 		return is_good_DMY(date);
 	}
-	if(format == Format::MDY)
+	if (format == Format::MDY)
 	{
 		return is_good_MDY(date);
 	}
-	if(format == Format::YMD)
+	if (format == Format::YMD)
 	{
 		return is_good_YMD(date);
 	}

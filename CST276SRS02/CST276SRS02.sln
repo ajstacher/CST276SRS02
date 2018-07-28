@@ -11,6 +11,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DateI18NEnum", "DateI18NEnu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DateI18N", "DateI18N\DateI18N.vcxproj", "{8D5C29F6-5626-434A-8D82-97AF24D1C080}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5F26262-8BD6-458E-950D-F70D58FB4E77}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+		..\REPORT.md = ..\REPORT.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

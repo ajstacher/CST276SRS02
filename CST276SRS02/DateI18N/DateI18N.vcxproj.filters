@@ -56,9 +56,6 @@
     <ClCompile Include="FormatContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IDateValidator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MDYValidator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -78,6 +75,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="..\..\README.md" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DateI18N.rc">

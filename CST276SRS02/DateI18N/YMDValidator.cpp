@@ -23,7 +23,6 @@ bool YMDValidator::is_good(std::string const date) const
 	iss >> std::ws >> delimiter;
 	result = result && delimiter == '/';
 	iss >> day; //swapped
-	
 
 	result = result &&
 		!iss.fail() && iss.eof() &&
@@ -37,6 +36,7 @@ int YMDValidator::days_in_month(int const year, int const month) const
 {
 	static const std::array<int, 12> days{ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 	int result{ days.at(month - 1) };
+
 	if (month == 2 && year % 4 == 0)
 	{
 		result = 29;

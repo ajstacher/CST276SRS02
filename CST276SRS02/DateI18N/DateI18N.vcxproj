@@ -161,7 +161,6 @@
   <ItemGroup>
     <ClCompile Include="DMYValidator.cpp" />
     <ClCompile Include="FormatContext.cpp" />
-    <ClCompile Include="IDateValidator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MDYValidator.cpp" />
     <ClCompile Include="NullValidator.cpp" />
@@ -176,6 +175,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\README.md" />
+    <None Include="ClassDiagram.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

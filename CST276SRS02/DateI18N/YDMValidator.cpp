@@ -15,7 +15,6 @@ bool YDMValidator::is_good(std::string const date) const
 
 	auto iss{ std::istringstream(date) };
 
-	
 	iss >> year; //swapped
 	iss >> std::ws >> delimiter;
 	result = result && delimiter == '/';
@@ -23,7 +22,6 @@ bool YDMValidator::is_good(std::string const date) const
 	iss >> std::ws >> delimiter;
 	result = result && delimiter == '/';
 	iss >> month; //swapped
-
 
 	result = result &&
 		!iss.fail() && iss.eof() &&

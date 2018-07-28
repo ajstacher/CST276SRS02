@@ -1,4 +1,5 @@
 #pragma once
+
 class Strategy
 {
 private:
@@ -6,7 +7,6 @@ private:
 
 public:
 	virtual ~Strategy() = default;
-
 	void Algorithm();
 };
 

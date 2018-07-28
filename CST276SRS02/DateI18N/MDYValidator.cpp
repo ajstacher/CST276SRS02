@@ -4,8 +4,6 @@
 #include <string>
 #include <sstream>
 
-//Code below taken from Besser slide 14 in "Strategy" Google doc
-
 bool MDYValidator::is_good(std::string const date) const
 {
 	auto result{ true };
@@ -32,7 +30,6 @@ bool MDYValidator::is_good(std::string const date) const
 
 	return result;
 }
-
 
 int MDYValidator::days_in_month(int const year, int const month) const
 {

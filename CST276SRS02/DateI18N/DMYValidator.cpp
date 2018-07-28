@@ -15,7 +15,7 @@ bool DMYValidator::is_good(std::string const date) const
 
 	auto iss{ std::istringstream(date) };
 
-	//day and month swapped for this format
+	// day and month swapped for this format
 	iss >> day;
 	iss >> std::ws >> delimiter;
 	result = result && delimiter == '/';

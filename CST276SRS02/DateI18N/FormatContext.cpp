@@ -3,12 +3,11 @@
 
 void FormatContext::setFormat(IDateValidator * v, std::string const date)
 {
-	//set format with string here
 	_date = date;
 	validator = v;
 }
 
-bool FormatContext::check()
+bool FormatContext::check() const
 {
 	return validator->is_good(_date);
 }
